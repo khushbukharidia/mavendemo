@@ -9,6 +9,7 @@ public class ReadpropertyFile {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+		System.out.println("Demo");
 		FileReader fr = new FileReader("C:\\Users\\khush\\eclipse-workspace\\mavendemo\\src\\test\\resources\\configfiles\\config.properties");
 		Properties p = new Properties();
 		p.load(fr);
